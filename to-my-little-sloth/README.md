@@ -1,1 +1,1 @@
-https://eyupbarlas.github.io/hilal-the-dg-gurl/
+https://eyupbarlas.github.io/to-my-little-sloth/

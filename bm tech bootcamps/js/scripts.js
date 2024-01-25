@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
+* Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
 //
 // Scripts
@@ -29,12 +29,12 @@ window.addEventListener('DOMContentLoaded', event => {
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
+    //  Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
-            offset: 72,
+            rootMargin: '0px 0px -40%',
         });
     };
 
